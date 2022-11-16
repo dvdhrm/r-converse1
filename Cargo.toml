@@ -1,0 +1,22 @@
+[package]
+name = "r-converse1"
+version = "0.1.0"
+
+authors = [
+        "David Rheinsberg <david.rheinsberg@gmail.com>",
+]
+categories = [
+        "no-std",
+        "os",
+]
+description = "Communication-based Operating-System Components"
+edition = "2021"
+homepage = "https://github.com/bus1/r-converse1"
+keywords = [
+        "api",
+        "communication",
+        "operating-system",
+]
+license = "MIT OR Apache-2.0 OR LGPL-2.1-or-later"
+readme = "README.md"
+repository = "https://github.com/bus1/r-converse1"

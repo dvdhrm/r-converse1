@@ -1,0 +1,20 @@
+name: "Test Suite"
+
+on:
+  push:
+  pull_request:
+  schedule:
+  - cron:  '0 0 * * *'
+
+jobs:
+  crate:
+    name: "Crate Test"
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: "Fetch Sources"
+      uses: actions/checkout@v2
+    - name: "Build Crate"
+      run: cargo build --verbose --all-targets
+    - name: "Run Tests"
+      run: cargo test --verbose
