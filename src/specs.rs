@@ -9,3 +9,5 @@
 //! Not runtime implementation or operating-system adaptation is provided.
 
 pub mod int;
+
+pub mod msdosmz;
