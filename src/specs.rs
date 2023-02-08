@@ -11,3 +11,4 @@
 pub mod int;
 
 pub mod msdosmz;
+pub mod pecoff;
